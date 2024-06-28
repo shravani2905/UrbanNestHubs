@@ -57,6 +57,11 @@ function Navbar() {
               </Link>
             </li>
             <li>
+              <Link to="/wishlist">
+                <button className="btn nav button">Wishlist</button>
+              </Link>
+            </li>
+            <li>
               <button className="btn nav button" onClick={handleLogout}>
                 Logout
               </button>

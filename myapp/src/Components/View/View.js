@@ -1,8 +1,28 @@
-import React from "react";
+// src/View.js
+import React, { useState } from "react";
 import "./View.css";
 import { useLocation } from "react-router-dom";
+
 function View() {
-  let { state } = useLocation();
+  const { state } = useLocation();
+  const [wishlistMessage, setWishlistMessage] = useState("");
+
+  const addToWishlist = () => {
+    fetch("http://localhost:4000/wishlist", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(state),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setWishlistMessage("Added to Wishlist!");
+        console.log("Added to Wishlist:", data);
+      })
+      .catch((err) => console.error("Error adding to Wishlist:", err));
+  };
+
   return (
     <div className="viewdata">
       <h3 className="title">{state.title}</h3>
@@ -26,11 +46,11 @@ function View() {
             <b>Area: </b>
             {state.squareFeet}
           </p>
-          <p>
-            <b>Rating: </b>
-            {state.Rating}
-          </p>
           <button className="btn pay">Pay</button>
+          <button className="btn wishlist" onClick={addToWishlist}>
+            Add to Wishlist
+          </button>
+          {wishlistMessage && <p className="wishlist-message">{wishlistMessage}</p>}
         </div>
       </div>
     </div>

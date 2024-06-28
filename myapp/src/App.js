@@ -7,6 +7,7 @@ import Sell from "./Components/Sell/Sell";
 import Signup from "./Components/Signup/Signup";
 import Login from "./Components/Login/Login";
 import View from "./Components/View/View";
+import Wishlist from "./Components/Wishlist/Wishlist";
 import "./App.css";
 function App() {
   let router = createBrowserRouter([
@@ -29,6 +30,10 @@ function App() {
         {
           path: "sell",
           element: <Sell/>,
+        },
+        {
+          path: "wishlist",
+          element: <Wishlist/>,
         },
         {
           path: "signup",

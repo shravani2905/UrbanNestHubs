@@ -14,10 +14,8 @@ function Property(props) {
           <b>Location: </b>
           {props.data.location}
         </p>
-        <p>
-          <b>Rating: </b>
-          {props.data.Rating}
-        </p>
+      
+         
         <button className="btn profile" onClick={handleViewDetails}>
           View Details
         </button>
