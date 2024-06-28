@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "6335",
+      "username": "shravani",
+      "email": "shravanireddypothula@gmail.com",
+      "password": "$2a$05$WxkUib905JXpXKX9yLHfqeF9Vir4Sf/Exdl6ruCAyByLZTGmOuN6G"
+    },
+    {
+      "id": "047d",
+      "username": "shravani2905",
+      "email": "shravanireddypothula@gmail.com",
+      "password": "$2a$05$MjsWHoyffwAhz17sP.OSKenAUemAVElpa6W8Y.zcvKcn6DKM3Ntpa"
+    }
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "title": "Luxurious Apartment with Sea View",
+      "location": "Mumbai",
+      "cost": "Rs. 2.5 Crores",
+      "squareFeet": "1800 sq.ft.",
+      "type": "Buy",
+      "Rating": 4.6,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/272767597.jpg?k=87b43f4a2e0aac4243b85efdd7fc09900670da8181d2b9d9b2fbd187039af8e5&o=&hp=1"
+    },
+    {
+      "id": 2,
+      "title": "Spacious Villa in Green Valley",
+      "location": "Bangalore",
+      "cost": "Rs. 2 lakhs/month",
+      "squareFeet": "2500 sq.ft.",
+      "type": "Buy",
+      "Rating": 4.1,
+      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/166987636.jpg?k=6bcd5e1c1fb7cf2c86a1f6dfd7853ac6e4136d0afd4c724e5bde2b0299d2a415&o=&hp=1"
+    },
+    {
+      "id": 3,
+      "title": "Elegant 2 BHK Flat",
+      "location": "Delhi",
+      "cost": "₹1.2 Crores",
+      "squareFeet": "1200 sq.ft.",
+      "type": "Buy",
+      "Rating": 4.2,
+      "image": "https://i.pinimg.com/originals/52/eb/e2/52ebe201949a3f98084cdb851daa0eb2.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Beautiful Farmhouse with Scenic Views",
+      "location": "Goa",
+      "cost": "₹4.2 Crores",
+      "squareFeet": "3000 sq.ft.",
+      "type": "Buy",
+      "Rating": 3.9,
+      "image": "https://cdn.onekindesign.com/wp-content/uploads/2020/02/Smoky-Mountain-Farmhouse-Jonathan-Miller-Architecture-21-1-Kindesign.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Cozy 3BHK Apartment",
+      "location": "Pune",
+      "cost": "Rs. 60 Lakhs",
+      "squareFeet": "800 sq.ft.",
+      "type": "Buy",
+      "Rating": 4.9,
+      "image": "https://www.homelane.com/blog/wp-content/uploads/2022/11/3bhk-interior-design.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Luxury 3 BHK Penthouse",
+      "location": "Kolkata",
+      "cost": "Rs.20000/month",
+      "squareFeet": "2200 sq.ft.",
+      "type": "Buy",
+      "Rating": 4.5,
+      "image": "https://cdn10.phillymag.com/wp-content/uploads/sites/3/2021/08/the-curtis-penthouse-profile-view-from-terrace-keystone-property-group.jpeg"
+    }
+  ]
+}

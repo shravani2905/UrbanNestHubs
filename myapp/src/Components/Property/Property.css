@@ -1,0 +1,38 @@
+.head img {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .head {
+    box-shadow: 5px 5px 5px rgb(66, 66, 72);
+    border: 1px solid rgb(150, 150, 255);
+    width: 360px;
+    height: 360px;
+    line-height: 15px;
+  }
+  .profile {
+    background-color: rgb(17, 139, 17);
+    color: white;
+    width: 120px;
+    font-size: 0.8rem;
+  }
+  @media screen and (max-width: 1100px) {
+    .head img {
+      display: block;
+      margin: auto;
+      margin-top: 2px;
+      width: 50px;
+    }
+    .head {
+      box-shadow: 5px 5px 5px rgb(168, 168, 255);
+      border: 1px solid rgb(150, 150, 255);
+      width: 200px;
+      height: 200px;
+      font-size: 0.5rem;
+    }
+    .profile {
+      background-color: rgb(17, 139, 17);
+      color: white;
+    }
+  }
+  

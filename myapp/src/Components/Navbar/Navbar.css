@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.navbar {
+  background-color: rgb(63, 63, 255);
+  position: fixed;
+  z-index: 2;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  top:0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar img {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.heading {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: rgb(133, 248, 38);
+  text-shadow: 2px 2px 2px rgb(228, 38, 187);
+  margin: 0;
+}
+
+.List {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.List li {
+  margin-right: 10px;
+}
+
+.List a {
+  text-decoration: none;
+}
+
+.button {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.welcome-message {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar {
+    font-size: 0.8rem;
+  }
+
+  .navbar img {
+    width: 60px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+
+  .List li {
+    margin-right: 5px;
+  }
+
+  .button {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .List {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .List li {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+
+  .button {
+    margin-left: 0;
+    font-size: 0.7rem;
+  }
+}

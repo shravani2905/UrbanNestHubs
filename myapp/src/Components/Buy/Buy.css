@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(222, 238, 255);
+}
+.sale {
+  color: rgb(252, 75, 75);
+  text-shadow: 2px 2px 2px rgb(243, 238, 238);
+  text-align: center;
+  padding-top: 100px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.buypropertiesdata{
+  margin-top: 80px;
+}
