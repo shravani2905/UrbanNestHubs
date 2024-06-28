@@ -23,35 +23,66 @@
       "username": "Shravs",
       "email": "snehithapallerla@gmail.com",
       "password": "$2a$05$ZSjNF8WMJNHuUnEYBzy2C.6W15Caf2a92izZKOxGuKafxi4aHin0i"
+    },
+    {
+      "id": "e898",
+      "username": "varsha",
+      "email": "shravanireddypothula@gmail.com",
+      "password": "$2a$05$D14OBXKSqX90ZD.gw1jCmOr.TqK5VEUvzgCdVLEZURyJ71BImDEs6"
     }
   ],
-  "wishlist": [
+  "wishlists": [
     {
-      "id": "1",
-      "title": "Luxurious Apartment with Sea View",
-      "location": "Mumbai",
-      "cost": "Rs. 2.5 Crores",
-      "squareFeet": "1800 sq.ft.",
-      "type": "Buy",
-      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/272767597.jpg?k=87b43f4a2e0aac4243b85efdd7fc09900670da8181d2b9d9b2fbd187039af8e5&o=&hp=1"
+      "id": "4b32",
+      "username": "snehitha",
+      "property": {
+        "id": "1",
+        "title": "Luxurious Apartment with Sea View",
+        "location": "Mumbai",
+        "cost": "Rs. 2.5 Crores",
+        "squareFeet": "1800 sq.ft.",
+        "type": "Buy",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/272767597.jpg?k=87b43f4a2e0aac4243b85efdd7fc09900670da8181d2b9d9b2fbd187039af8e5&o=&hp=1"
+      }
     },
     {
-      "id": "1",
-      "title": "Luxurious Apartment with Sea View",
-      "location": "Mumbai",
-      "cost": "Rs. 2.5 Crores",
-      "squareFeet": "1800 sq.ft.",
-      "type": "Buy",
-      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/272767597.jpg?k=87b43f4a2e0aac4243b85efdd7fc09900670da8181d2b9d9b2fbd187039af8e5&o=&hp=1"
+      "id": "e3b4",
+      "username": "snehitha",
+      "property": {
+        "id": "2",
+        "title": "Spacious Villa in Green Valley",
+        "location": "Bangalore",
+        "cost": "Rs. 2 lakhs/month",
+        "squareFeet": "2500 sq.ft.",
+        "type": "Buy",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/166987636.jpg?k=6bcd5e1c1fb7cf2c86a1f6dfd7853ac6e4136d0afd4c724e5bde2b0299d2a415&o=&hp=1"
+      }
     },
     {
-      "id": "2",
-      "title": "Spacious Villa in Green Valley",
-      "location": "Bangalore",
-      "cost": "Rs. 2 lakhs/month",
-      "squareFeet": "2500 sq.ft.",
-      "type": "Buy",
-      "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/166987636.jpg?k=6bcd5e1c1fb7cf2c86a1f6dfd7853ac6e4136d0afd4c724e5bde2b0299d2a415&o=&hp=1"
+      "id": "f5ea",
+      "username": "varsha",
+      "property": {
+        "id": "2",
+        "title": "Spacious Villa in Green Valley",
+        "location": "Bangalore",
+        "cost": "Rs. 2 lakhs/month",
+        "squareFeet": "2500 sq.ft.",
+        "type": "Buy",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/166987636.jpg?k=6bcd5e1c1fb7cf2c86a1f6dfd7853ac6e4136d0afd4c724e5bde2b0299d2a415&o=&hp=1"
+      }
+    },
+    {
+      "id": "b684",
+      "username": "varsha",
+      "property": {
+        "id": "2",
+        "title": "Spacious Villa in Green Valley",
+        "location": "Bangalore",
+        "cost": "Rs. 2 lakhs/month",
+        "squareFeet": "2500 sq.ft.",
+        "type": "Buy",
+        "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/166987636.jpg?k=6bcd5e1c1fb7cf2c86a1f6dfd7853ac6e4136d0afd4c724e5bde2b0299d2a415&o=&hp=1"
+      }
     }
   ],
   "properties": [

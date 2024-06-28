@@ -1,56 +1,61 @@
 // src/View.js
-import React, { useState } from "react";
-import "./View.css";
+import React, { useState, useEffect, useContext } from "react";
 import { useLocation } from "react-router-dom";
+import "./View.css";
+import { UserContext } from "../../Contexts/UserContext";
 
 function View() {
   const { state } = useLocation();
-  const [wishlistMessage, setWishlistMessage] = useState("");
+  const [user] = useContext(UserContext);
+  const [property, setProperty] = useState(state || {});
 
   const addToWishlist = () => {
-    fetch("http://localhost:4000/wishlist", {
+    const wishlistItem = {
+      username: user.username,
+      property: property,
+    };
+
+    fetch(`http://localhost:4000/wishlists`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(state),
+      body: JSON.stringify(wishlistItem),
     })
       .then((res) => res.json())
-      .then((data) => {
-        setWishlistMessage("Added to Wishlist!");
-        console.log("Added to Wishlist:", data);
+      .then((addedProperty) => {
+        alert("Property added to wishlist!");
       })
-      .catch((err) => console.error("Error adding to Wishlist:", err));
+      .catch((err) => console.error("Error adding to wishlist:", err));
   };
 
   return (
     <div className="viewdata">
-      <h3 className="title">{state.title}</h3>
+      <h3 className="title">{property.title}</h3>
       <div className="card card1 head1">
         <div className="flex1">
-          <img src={state.image} alt="" width="300px" height="200px" />
+          <img src={property.image} alt={property.title} width="300px" height="200px" />
         </div>
         <div className="card-body flex2">
           <p className="text-success fw-bold">
-            {state.type === "Buy" ? "FOR SALE" : "FOR RENT"}
+            {property.type === "Buy" ? "FOR SALE" : "FOR RENT"}
           </p>
           <p>
             <b>Location: </b>
-            {state.location}
+            {property.location}
           </p>
           <p>
             <b>Cost: </b>
-            {state.cost}
+            {property.cost}
           </p>
           <p>
             <b>Area: </b>
-            {state.squareFeet}
+            {property.squareFeet}
           </p>
-          <button className="btn pay">Pay</button>
+          <button className="btn pay">Buy</button>
           <button className="btn wishlist" onClick={addToWishlist}>
             Add to Wishlist
           </button>
-          {wishlistMessage && <p className="wishlist-message">{wishlistMessage}</p>}
         </div>
       </div>
     </div>
