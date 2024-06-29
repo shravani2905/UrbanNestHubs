@@ -78,10 +78,7 @@ function Login() {
               <p className="form-error">Password is mandatory</p>
             )}
           </div>
-          <div className="flex">
-            <input className="checkbox" type="checkbox" name=" " id=" "></input>
-            <p className="text">I accept the terms of Use & Privacy Policy</p>
-          </div>
+          
           <button htmlFor="submit" className="btn mx-3 submit">
             {" "}
             Login

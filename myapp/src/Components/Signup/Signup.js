@@ -83,10 +83,7 @@ function Signup() {
               <p className="form-error">Password is mandatory</p>
             )}
           </div>
-          <div className="flex">
-            <input className="checkbox" type="checkbox" name=" " id=" "></input>
-            <p className="text">I accept the terms of Use & Privacy Policy</p>
-          </div>
+         
           <button className="btn submit" type="submit" disabled={false}>
             Sign up
           </button>

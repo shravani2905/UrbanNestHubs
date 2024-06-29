@@ -17,6 +17,7 @@ function Navbar() {
       <img
         src="https://static.vecteezy.com/system/resources/thumbnails/008/075/444/small/the-logo-of-home-housing-residents-real-estate-with-a-concept-that-presents-rural-nature-with-a-touch-of-leaves-and-sunflowers-vector.jpg"
         width="80px"
+        className="nest"
         alt="Urban Nest Hubs Logo"
       />
       <h3 className="heading">Urban Nest Hubs</h3>
@@ -58,7 +59,15 @@ function Navbar() {
             </li>
             <li>
               <Link to="/wishlist">
+              <div className="d-flex">
                 <button className="btn nav button">Wishlist</button>
+             
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link to="/requests">      
+                        <button className="btn nav button">Requests</button>
               </Link>
             </li>
             <li>

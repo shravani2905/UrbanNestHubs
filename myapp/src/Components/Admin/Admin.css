@@ -1,0 +1,57 @@
+.admin-requests-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .admin-requests-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  .admin-requests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .admin-request-item {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-request-item h3 {
+    margin: 0 0 10px;
+    color: #495057;
+  }
+  
+  .admin-request-item p {
+    margin: 5px 0;
+  }
+  
+  .admin-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .admin-buttons .btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .admin-buttons .btn.approve {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .admin-buttons .btn.reject {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  

@@ -8,6 +8,8 @@ import Signup from "./Components/Signup/Signup";
 import Login from "./Components/Login/Login";
 import View from "./Components/View/View";
 import Wishlist from "./Components/Wishlist/Wishlist";
+import Requests from "./Components/Requests/Requests";
+import Admin from "./Components/Admin/Admin"
 import "./App.css";
 function App() {
   let router = createBrowserRouter([
@@ -32,6 +34,10 @@ function App() {
           element: <Sell/>,
         },
         {
+          path: "requests",
+          element: <Requests/>,
+        },
+        {
           path: "wishlist",
           element: <Wishlist/>,
         },
@@ -46,6 +52,10 @@ function App() {
         {
           path: "view",
           element: <View />,
+        },
+        {
+          path: "admin",
+          element: <Admin />,
         },
       ],
     },

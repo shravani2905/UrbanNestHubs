@@ -15,8 +15,8 @@
 .head1 {
   box-shadow: 5px 5px 5px rgb(66, 66, 72);
   border: 1px solid rgb(150, 150, 255);
-  width: 600px;
-  height: 320px;
+  width: 630px;
+  height: 350px;
   line-height: 30px;
   display: flex;
   justify-content: space-around;
