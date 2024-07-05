@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
 .row1 {
   display: flex;
   flex-wrap: wrap;
@@ -11,6 +12,7 @@
 body {
   background-color: rgb(222, 238, 255);
 }
+
 .sale {
   color: rgb(252, 75, 75);
   text-shadow: 2px 2px 2px rgb(243, 238, 238);
@@ -21,7 +23,26 @@ body {
   font-weight: weight;
   font-style: normal;
 }
-.buypropertiesdata{
+
+.buypropertiesdata {
   margin-top: 80px;
-  
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-container input[type="text"]:focus {
+  border-color: rgb(252, 75, 75);
 }

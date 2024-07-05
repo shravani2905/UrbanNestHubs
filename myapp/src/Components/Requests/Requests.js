@@ -67,6 +67,7 @@ function Requests() {
     })
       .then((res) => {
         if (res.ok) {
+          // Remove the request from receivingRequests state
           setReceivingRequests(receivingRequests.filter((request) => request.id !== id));
         } else {
           console.error("Error rejecting request:", res.statusText);

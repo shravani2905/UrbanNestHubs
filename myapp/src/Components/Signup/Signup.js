@@ -13,6 +13,7 @@ function Signup() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newUser),
     })
+    
       .then((res) => {
         if (res.status === 201) {
           navigate("/login");
