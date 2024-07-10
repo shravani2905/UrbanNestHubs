@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UrbanNestHubs/static/css/main.bcf43d85.css",
+    "main.js": "/UrbanNestHubs/static/js/main.35a3f8b6.js",
+    "index.html": "/UrbanNestHubs/index.html",
+    "main.bcf43d85.css.map": "/UrbanNestHubs/static/css/main.bcf43d85.css.map",
+    "main.35a3f8b6.js.map": "/UrbanNestHubs/static/js/main.35a3f8b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcf43d85.css",
+    "static/js/main.35a3f8b6.js"
+  ]
+}
